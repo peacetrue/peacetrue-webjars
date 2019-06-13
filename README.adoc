@@ -1,0 +1,19 @@
+= webjars
+peacetrue
+v1.0, 2019-06-13: SNAPSHOT
+:doctype: docbook
+:toc: left
+:numbered:
+
+== 前言
+.参考
+* https://www.webjars.org/
+* https://github.com/webjars
+
+webjars发布jar包到maven中央仓库，需要数小时，速度太慢。
+个人只需要发布快照版到快照仓库，数分钟可以完成。
+需要同步 js 组件，从组件资源库拷贝到webjars资源库下。
+
+== vue-image-display
+``cp -R ../vue-image-display/dist vue-image-display/src/main/resources/META-INF/resources/webjars/vue-image-display/1.0.0``
+

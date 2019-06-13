@@ -1,0 +1,9 @@
+.image-display-item {
+    display: inline;
+    margin: auto 2px;
+}
+
+.image-display-item > img {
+    width: 96px;
+    height: 96px;
+}
