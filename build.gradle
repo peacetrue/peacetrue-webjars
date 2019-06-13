@@ -43,7 +43,7 @@ subprojects {
                 pom {
                     name = project.name
                     description = project.description
-                    url = 'https://github.com/peacetrue/model-generator'
+                    url = 'https://github.com/peacetrue/webjars'
                     licenses {
                         license {
                             name = 'The Apache License, Version 2.0'
@@ -58,9 +58,9 @@ subprojects {
                         }
                     }
                     scm {
-                        connection = 'https://github.com/peacetrue/model-generator.git'
-                        developerConnection = 'https://github.com/peacetrue/model-generator.git'
-                        url = 'https://github.com/peacetrue/model-generator'
+                        connection = 'https://github.com/peacetrue/webjars.git'
+                        developerConnection = 'https://github.com/peacetrue/webjars.git'
+                        url = 'https://github.com/peacetrue/webjars'
                     }
                 }
 
