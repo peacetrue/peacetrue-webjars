@@ -1,2 +1,3 @@
 rootProject.name = 'peacetrue-webjars'
 include('vue-image-display')
+include('jsonpath')

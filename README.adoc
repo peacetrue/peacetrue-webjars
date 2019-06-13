@@ -17,3 +17,6 @@ webjars发布jar包到maven中央仓库，需要数小时，速度太慢。
 == vue-image-display
 ``cp -R ../vue-image-display/dist vue-image-display/src/main/resources/META-INF/resources/webjars/vue-image-display/1.0.0``
 
+== jsonpath
+从 https://github.com/dchester/jsonpath 拷贝而来。
+不知道为什么无法从webjars中下载jsonpath。
