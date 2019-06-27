@@ -1,0 +1,5 @@
+dependencies {
+    compile 'org.webjars.npm:vue:2.6.10'
+    compile 'org.webjars.npm:iview:3.4.2'
+    compile 'org.webjars.npm:vuedraggable:2.16.0'
+}
