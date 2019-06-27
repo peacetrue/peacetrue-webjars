@@ -1,0 +1,51 @@
+.upload {
+
+}
+
+.upload .upload-item {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    margin-right: 4px;
+}
+
+.upload .upload-item .upload-item-content {
+    width: 100%;
+    height: 100%;
+}
+
+.upload .upload-item .upload-item-cover {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .6);
+}
+
+.upload .upload-item:hover .upload-item-cover {
+    display: block;
+}
+
+.upload .upload-item .upload-item-cover i {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+.upload .upload-selector {
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+}
